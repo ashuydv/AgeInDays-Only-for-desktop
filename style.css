@@ -1,29 +1,33 @@
 *{
   margin:0;
   padding:0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
   width: 100%;
   height:100%;
-  background-position: contain;
+  background-position: cover;
   background-repeat:no-repeat;
-  background:linear-gradient(to right,#C3C6ED,#E9EBFF);
+  background:radial-gradient(#e65c00,#ff9900),rgba(0,0,0,0.6);
 }
 #container{
   border:0.1px solid rgba(0,0,0,0.1);
-  background:rgba(0,0,0,0.1);
+  background: #ff9900;
   margin:25rem auto;
   padding: 2rem;
   width: 30rem;
   height:25rem;
   border-radius:4rem;
-  box-shadow: inset 3px 3px 5px #f2f2f2,
-             3px 3px 5px #595959;
+  box-shadow: inset 3px 3px 10px #f2f2f2,
+             3px 3px 25px #331f00;
 }
 #container h1{
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   text-align: center;
+}
+input-placeholder{
+  font-weight:black;
 }
 #age {
   text-align: center;
@@ -33,7 +37,7 @@ body{
   text-align: center;
   border-radius:1rem;
   border:1px solid rgba(0,0,0,0.01);
-  box-shadow: inset -1px -1px 1px #999,
+  box-shadow: inset -1px -1px 2.5px black,
               -1px -1px 1px #fff;
   background:rgba(0,0,0,0.01);
   padding: 0.6rem 0;
@@ -41,14 +45,14 @@ body{
 #age input:hover{
   border:1px solid rgba(0,0,0,0.01);
   box-shadow: inset -1px -1px 1px #fff,
-              -1px -2px 1px #999;
+              -1px -2px 5px black;
   background:rgba(0,0,0,0.01);
 }
 .result{
   text-align: center;
   background: rgba(0,0,0,0.01);
   border-radius:2rem;
-  box-shadow: inset -1px -1px 1px #595959,
+  box-shadow: inset -1px -1px 5px black,
               -1px -1px 1px #f2f2f2;
   width:100%;
   height:50%;
@@ -77,12 +81,12 @@ body{
   padding:0.5rem 1rem;
   margin:0.5rem 1rem;
   background: transparent;
-  box-shadow: inset -1px -1px 1px #595959,
+  box-shadow: inset -1px -1px 2.5px black,
   -1px -1px 1px #f2f2f2;
   font-size: 1rem;
 }
 .btn button:hover{
   box-shadow: inset -1px -1px 1px #f2f2f2,
-  -1px -1px 1px #595959;
+  -1px -1px 5px black;
 }
   
